@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baker Mrad C.V</title>
+    <title>about</title>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
@@ -27,16 +27,63 @@ h2{
         text-align: justify;
        
     }
- .contact {
-  background: #242524 ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+    li, a , button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+.logo {
+  cursor: pointer;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: #0088a9;
+}
+#contactbutton {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+#contactbutton:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+
 </style>
 </head>
 <body>
-    <h1 id="top" style="color: rgba(00, 00, 00, 0.7); text-align: center; font-size: 10vh; background-color: rgba(0, 136, 169, 1); font-family: 'Montserrat',  sans-serif; ">Baker Mrad</h1>
+    <header>
+        <img class="logo" width="150px" src="logo.png" alt="logo">
+        <nav id="top" >
+            <ul class="nav__links">
+                <li> <a target="_blank" href="about.html">about</a> </li>
+                <li> <a target="_blank" href="https://github.com/bakermrad2">projects</a> </li>
+                <li> <a target="_blank" href="#">links</a> </li>
+            </ul>
+        </nav>
+        <a target="_blank" class="cta" href="contact.html"> <button id="contactbutton">contact</button> </a>
+    </header>
+    <h1  style="color: rgba(00, 00, 00, 0.7); text-align: center; font-size: 10vh; background-color: rgba(0, 136, 169, 1); font-family: 'Montserrat',  sans-serif; ">Baker Mrad</h1>
     <img style="width: 20%;;" src="./baker Mrad.png" alt="Baker Mrad">
     <h2  >Personal Information</h2>
     <hr>
@@ -59,21 +106,7 @@ h2{
 <li>2019-2021 high school diploma in life science at saba zreik highschool</li>
 <li>2021-future computer science at BAU university</li>
 </ol>
-<h2>Contact</h2>
-<hr>
-<div class="contact">
-<a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRrljWHpBbgJHMSzzrhwbpVvCwgwQbJGCkpnjSXGjlsQpZfHvpQdsQvzcRGqNrMjSFtJMGG" target="_blank">
-<img src="gmail.png" width="11%" alt="gmail">
-</a>
-<a href="https://lb.linkedin.com/in/baker-mrad-9bb928217?challengeId=AQFMUji6-KdNYgAAAX8T5oDG-iTVFly11dEs0NEz-wLxJ5gcqp1nS9q1IIXb72BBCVw5YwosRi6CobEQqJTOBYICVhe0qCOxPA&submissionId=500060e4-674d-d516-9059-1f33ae17f534" target="_blank">
-<img src="linkedin.png" alt="linkedin" width="10%" ></a>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
@@ -91,7 +124,7 @@ h2{
 
 
 
-<a href="#top"><img style="width: 10%;" src="./bake to top.jpg" alt=""></a>
+<a href="#top"><img width: 30%; src="./gototop.png" alt=""></a>
 
 </body>
 </html>
