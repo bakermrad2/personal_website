@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
-  box-sizing: border-box;
   margin: 0cm;
   padding: 0cm;
+}
+body {
   background-color: #242524;
+  font-size: 14px;
+}
+.all {
+  box-sizing: border-box;
 }
 li,
 a,
@@ -46,4 +51,40 @@ header {
 }
 #contactbutton:hover {
   background-color: rgba(0, 136, 169, 0.8);
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #0088a9;
+  color: #fff;
+}
+.contact-us {
+  margin-bottom: 10px;
+}
+.container p {
+  margin-bottom: 40px;
+}
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group {
+  flex-basis: 45%;
+}
+input {
+  width: 100%;
 }
