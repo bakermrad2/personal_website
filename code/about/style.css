@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 * {
   margin: 0cm;
   padding: 0cm;
@@ -25,6 +28,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 10%;
+}
+hr{
+  height: 1px;
+  background-color: #0088a9;
+  border: none;
+  padding: 1px;
 }
 .logo {
   cursor: pointer;
@@ -131,4 +140,30 @@ tr td:first-child {
 }
 tr td {
   padding-top: 20px;
+}
+.iframe-container{
+  position: relative;
+  width: 70%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left:20%;
+  right: 20%;
+  width: 100%;
+  height: 100%;
+}
+.hello_everyone{
+  font-family: 'Montserrat', sans-serif;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+.hello_everyone p{
+  font-family: 'Montserrat', sans-serif;
+  color: #0088a9;
+  text-align: center;
+  padding: 10px;
 }
